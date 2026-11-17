@@ -1,0 +1,3 @@
+bucket = "lagoski-tfstate-<account-id>"
+key    = "lagoski-notification/aws/dev/terraform.tfstate"
+region = "us-east-1"

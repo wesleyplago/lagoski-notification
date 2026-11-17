@@ -1,0 +1,24 @@
+{
+  "publishes": null,
+  "subscriptions": [
+    {
+      "topic": "ordering.events",
+      "event_types": [
+        "lagoski.ordering.order.confirmed.v1",
+        "lagoski.ordering.order.cancelled.v1"
+      ]
+    },
+    {
+      "topic": "payment.events",
+      "event_types": [
+        "lagoski.payment.payment.declined.v1"
+      ]
+    },
+    {
+      "topic": "fulfillment.events",
+      "event_types": [
+        "lagoski.fulfillment.shipment.dispatched.v1"
+      ]
+    }
+  ]
+}
